@@ -1,0 +1,32 @@
+[
+    {
+        "id": "MLA1",
+        "titulo": "Placa De Video Nvidia Gigabyte Rtx 4060 Windforce Oc 8gb",
+        "precio": 425999,
+        "comercio": "Mercado Libre",
+        "envioGratis": true,
+        "actualizado": "12/10/2026 22:34",
+        "url": "https://www.mercadolibre.com.ar",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_900253-MLA71070624017_082023-O.webp"
+    },
+    {
+        "id": "MLA2",
+        "titulo": "Procesador Amd Ryzen 5 5600x 4.6ghz Am4",
+        "precio": 215500,
+        "comercio": "Venex",
+        "envioGratis": false,
+        "actualizado": "12/10/2026 22:34",
+        "url": "https://www.venex.com.ar",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_753381-MLA44087959063_112020-O.webp"
+    },
+    {
+        "id": "MLA3",
+        "titulo": "Memoria Ram Kingston Fury Beast 16gb Ddr4 3200mhz",
+        "precio": 62000,
+        "comercio": "CompraGamer",
+        "envioGratis": true,
+        "actualizado": "12/10/2026 22:34",
+        "url": "https://compragamer.com",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_600204-MLA48439363065_122021-O.webp"
+    }
+]
