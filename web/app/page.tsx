@@ -1,11 +1,22 @@
-/* eslint-disable */
 'use client';
 
 import React, { useState, useEffect } from 'react';
 
+// 1. Definimos la estructura exacta para que Vercel no tire error de TypeScript
+interface Producto {
+  id: string;
+  titulo: string;
+  comercio: string;
+  precio: number;
+  actualizado: string;
+  url: string;
+  imagen: string;
+  envioGratis: boolean;
+}
+
 export default function Home() {
   const [busqueda, setBusqueda] = useState('');
-  const [productos, setProductos] = useState<any[]>([]);
+  const [productos, setProductos] = useState<Producto[]>([]);
   const [cargando, setCargando] = useState(true);
 
   useEffect(() => {
@@ -86,6 +97,7 @@ export default function Home() {
                     <tr key={item.id} className="hover:bg-slate-800/30 transition-colors group">
                       <td className="p-5 flex items-center gap-4">
                         {item.imagen && (
+                          /* eslint-disable-next-line @next/next/no-img-element */
                           <img src={item.imagen} alt={item.titulo} className="w-10 h-10 md:w-12 md:h-12 rounded bg-white object-cover border border-slate-700/50" />
                         )}
                         <div>
