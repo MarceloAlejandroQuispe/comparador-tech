@@ -137,7 +137,7 @@ export default function Home() {
       <footer className="border-t border-slate-800/50 bg-[#0B0F19] py-6 mt-auto relative z-10">
         <div className="max-w-5xl mx-auto px-4 text-center flex flex-col items-center gap-2">
           <p className="text-slate-600 text-xs font-medium">
-            © {new Date().getFullYear()} VORTEX. Todos los derechos reservados.
+            © 2026 VORTEX. Todos los derechos reservados.
           </p>
         </div>
       </footer>
