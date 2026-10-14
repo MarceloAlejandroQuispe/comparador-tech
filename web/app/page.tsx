@@ -20,8 +20,12 @@ export default function Home() {
   const [cargando, setCargando] = useState(true);
 
   useEffect(() => {
-    fetch('/productos_db.json')
-      .then((res) => res.json())
+    // Agregamos un timestamp y 'no-store' para destruir el caché y traer precios en vivo
+    fetch('/productos_db.json?nocache=' + new Date().getTime(), { cache: 'no-store' })
+      .then((res) => {
+        if (!res.ok) throw new Error("Error en la respuesta del servidor");
+        return res.json();
+      })
       .then((data) => {
         setProductos(data);
         setCargando(false);
