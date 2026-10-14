@@ -36,7 +36,7 @@ export default function Home() {
       <nav className="border-b border-slate-800/50 bg-[#0B0F19]/90 backdrop-blur-md sticky top-0 z-50">
         <div className="w-full px-6 md:px-8 py-3 flex items-center justify-start">
           <img 
-            src="/logo.png" 
+            src="/logo-vortex.png" 
             alt="Vortex Logo" 
             className="h-12 md:h-16 w-auto object-contain"
           />
@@ -138,7 +138,7 @@ export default function Home() {
       {/* FOOTER (Copyright) */}
       <footer className="border-t border-slate-800/50 bg-[#0B0F19] py-6 mt-auto relative z-10">
         <div className="max-w-5xl mx-auto px-4 text-center flex flex-col items-center gap-2">
-           <img src="/logo.png" alt="Vortex Icon" className="h-5 md:h-6 opacity-50 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-300"/>
+           <img src="/logo-vortex.png" alt="Vortex Icon" className="h-5 md:h-6 opacity-50 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-300"/>
           <p className="text-slate-600 text-xs font-medium">
             © {new Date().getFullYear()} VORTEX. Todos los derechos reservados.
           </p>
