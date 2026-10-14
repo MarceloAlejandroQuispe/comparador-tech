@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 'use client';
 
 import React, { useState, useEffect } from 'react';
@@ -31,7 +32,7 @@ export default function Home() {
       <div className="absolute top-0 left-1/4 w-96 h-96 bg-cyan-500/5 rounded-full blur-3xl pointer-events-none"></div>
       <div className="absolute top-1/3 right-1/4 w-96 h-96 bg-indigo-500/5 rounded-full blur-3xl pointer-events-none"></div>
 
-      {/* BARRA DE NAVEGACIÓN SUPERIOR (Logo ajustado a tamaño ideal) */}
+      {/* BARRA DE NAVEGACIÓN SUPERIOR */}
       <nav className="border-b border-slate-800/50 bg-[#0B0F19]/90 backdrop-blur-md sticky top-0 z-50">
         <div className="w-full px-6 md:px-8 py-3 flex items-center justify-start">
           <img 
